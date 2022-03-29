@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PokeAPI-ObjC_Example' do
+  pod 'PokeAPI-ObjC', :path => '../'
+
+  target 'PokeAPI-ObjC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
