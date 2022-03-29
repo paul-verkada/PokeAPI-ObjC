@@ -1,0 +1,16 @@
+PODS:
+  - PokeAPI-ObjC (0.1.0)
+
+DEPENDENCIES:
+  - PokeAPI-ObjC (from `../`)
+
+EXTERNAL SOURCES:
+  PokeAPI-ObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PokeAPI-ObjC: 53842f0aabf229edce346b30dbe84a4318a9507e
+
+PODFILE CHECKSUM: ed6ab8392facef9967cce3615c1308f862d0e9ec
+
+COCOAPODS: 1.11.2

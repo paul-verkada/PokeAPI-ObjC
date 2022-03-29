@@ -1,0 +1,6 @@
+framework module PokeAPI_ObjC {
+  umbrella header "PokeAPI-ObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

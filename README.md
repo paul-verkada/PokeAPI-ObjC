@@ -1,13 +1,35 @@
 # PokeAPI-ObjC
-
-[![CI Status](https://img.shields.io/travis/paul-verkada/PokeAPI-ObjC.svg?style=flat)](https://travis-ci.org/paul-verkada/PokeAPI-ObjC)
-[![Version](https://img.shields.io/cocoapods/v/PokeAPI-ObjC.svg?style=flat)](https://cocoapods.org/pods/PokeAPI-ObjC)
-[![License](https://img.shields.io/cocoapods/l/PokeAPI-ObjC.svg?style=flat)](https://cocoapods.org/pods/PokeAPI-ObjC)
-[![Platform](https://img.shields.io/cocoapods/p/PokeAPI-ObjC.svg?style=flat)](https://cocoapods.org/pods/PokeAPI-ObjC)
+API wrapper for the [PokeAPI](https://pokeapi.co/) written in Objective-C.
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+List Pokemon API example
+```objective-c
+import PokeAPI
+
+PokeAPI.listPokemon() { result in
+  switch result {
+  case .success(let pokemon):
+    print(pokemon)
+  case .failure(let error):
+    print(error)
+  }
+}
+```
+
+ImageDownloader example
+```objective-c
+import PokeAPI
+
+ImageDownloader.getImage(withURL: url) { result in
+  switch result {
+  case .success(let image):
+    let imageView = UIImageView(image: image)
+  case .failure(let error):
+    print(error)
+  }
+}
+```
 
 ## Requirements
 

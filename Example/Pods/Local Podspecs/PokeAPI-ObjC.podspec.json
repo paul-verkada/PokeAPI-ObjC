@@ -1,0 +1,22 @@
+{
+  "name": "PokeAPI-ObjC",
+  "version": "0.1.0",
+  "summary": "A short description of PokeAPI-ObjC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/paul-verkada/PokeAPI-ObjC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "paul-verkada": "paul.wong@verkada.com"
+  },
+  "source": {
+    "git": "https://github.com/paul-verkada/PokeAPI-ObjC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PokeAPI-ObjC/Classes/**/*"
+}
