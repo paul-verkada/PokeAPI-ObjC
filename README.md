@@ -39,7 +39,7 @@ PokeAPI-ObjC is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'PokeAPI-ObjC'
+pod 'PokeAPI-ObjC', :git => 'git@github.com:paul-verkada/PokeAPI-ObjC.git'
 ```
 
 ## Author

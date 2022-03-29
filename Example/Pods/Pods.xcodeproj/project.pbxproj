@@ -13,10 +13,22 @@
 		1960367E983F744CF14DA7D919D2E1D7 /* PokeAPI-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CA99CD4259DE4FFEA5510D77EF8F5 /* PokeAPI-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D70D597CB0372D289D75C4F2F130618 /* Pods-PokeAPI-ObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 372A31470E867AA6169F7A842BA2F811 /* Pods-PokeAPI-ObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3218E57A89442404E0C7967DAD5C4E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		98588F39C005B77AE3608602D875EA49 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A15013DB540FAF7ABB42ECF213D6F9 /* ReplaceMe.m */; };
 		A351973865C792354F23DE29C3DD1941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B4204915D8F0CA07AFAE417302D31A05 /* Pods-PokeAPI-ObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0ADAD3BE81B62499ED9A038ABB97996 /* Pods-PokeAPI-ObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D098BC76F8F5DBDCC46B7207C07E7D89 /* PokeAPI-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28A0641CE2F2854A5C0E67700C60B3 /* PokeAPI-ObjC-dummy.m */; };
+		EAE5D55827F29F2D003C272B /* ListPokemonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5D54B27F29F2D003C272B /* ListPokemonResponse.h */; };
+		EAE5D55927F29F2D003C272B /* Pokemon.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5D54C27F29F2D003C272B /* Pokemon.h */; };
+		EAE5D55A27F29F2D003C272B /* PokemonService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5D54D27F29F2D003C272B /* PokemonService.h */; };
+		EAE5D55B27F29F2D003C272B /* PokemonResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5D54E27F29F2D003C272B /* PokemonResult.h */; };
+		EAE5D55C27F29F2D003C272B /* PokemonSprites.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D54F27F29F2D003C272B /* PokemonSprites.m */; };
+		EAE5D55D27F29F2D003C272B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EAE5D55027F29F2D003C272B /* .gitkeep */; };
+		EAE5D55E27F29F2E003C272B /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D55127F29F2D003C272B /* ImageDownloader.m */; };
+		EAE5D55F27F29F2E003C272B /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D55227F29F2D003C272B /* Pokemon.m */; };
+		EAE5D56027F29F2E003C272B /* ListPokemonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D55327F29F2D003C272B /* ListPokemonResponse.m */; };
+		EAE5D56127F29F2E003C272B /* PokemonResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D55427F29F2D003C272B /* PokemonResult.m */; };
+		EAE5D56227F29F2E003C272B /* PokemonService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D55527F29F2D003C272B /* PokemonService.m */; };
+		EAE5D56327F29F2E003C272B /* ImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5D55627F29F2D003C272B /* ImageDownloader.h */; };
+		EAE5D56427F29F2E003C272B /* PokemonSprites.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE5D55727F29F2D003C272B /* PokemonSprites.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0350CA9E7EC756590DC0FD3FA99B2756 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0350CA9E7EC756590DC0FD3FA99B2756 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0E6B01E61A93C8DECDCC229DACE5ADE0 /* PokeAPI-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "PokeAPI-ObjC.modulemap"; sourceTree = "<group>"; };
-		1B1ADACA6CE362007FD4DEC27DB9C837 /* PokeAPI-ObjC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "PokeAPI-ObjC.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B1ADACA6CE362007FD4DEC27DB9C837 /* PokeAPI-ObjC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "PokeAPI-ObjC.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C28A0641CE2F2854A5C0E67700C60B3 /* PokeAPI-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PokeAPI-ObjC-dummy.m"; sourceTree = "<group>"; };
 		2031CD419E66E50F35C6C43A4AAAB5F5 /* PokeAPI-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PokeAPI-ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		2912DCA9F98994A7472565F5D44D74A1 /* Pods-PokeAPI-ObjC_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PokeAPI-ObjC_Example"; path = Pods_PokeAPI_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C902EAE7FA293A550826543C5333189 /* Pods-PokeAPI-ObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokeAPI-ObjC_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D4D7BFA150455084BA2048458FDCA92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2D4D7BFA150455084BA2048458FDCA92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3425D2CE57565EAEF1DFBED041A25FD8 /* PokeAPI-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PokeAPI-ObjC-prefix.pch"; sourceTree = "<group>"; };
 		34FF68F1A6B1B7200792700A5F8E0A39 /* Pods-PokeAPI-ObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokeAPI-ObjC_Example-dummy.m"; sourceTree = "<group>"; };
 		372A31470E867AA6169F7A842BA2F811 /* Pods-PokeAPI-ObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeAPI-ObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -61,15 +73,27 @@
 		94BD03A87842BF9C6D0E12E105E462E2 /* Pods-PokeAPI-ObjC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeAPI-ObjC_Tests-Info.plist"; sourceTree = "<group>"; };
 		99F0A3C4C99F530C972641E48FB7A3AA /* Pods-PokeAPI-ObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeAPI-ObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BB8A1A582C191DF0B0BAA9CC1CBB1FA /* PokeAPI-ObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "PokeAPI-ObjC"; path = PokeAPI_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE167AFE78B75A5B96269CFE80FAC88B /* Pods-PokeAPI-ObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PokeAPI-ObjC_Example.modulemap"; sourceTree = "<group>"; };
 		C5E78FFE83B8065CE1D6F3662D808B27 /* Pods-PokeAPI-ObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeAPI-ObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C88CA99CD4259DE4FFEA5510D77EF8F5 /* PokeAPI-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PokeAPI-ObjC-umbrella.h"; sourceTree = "<group>"; };
 		D3CDEBCF25A50799AB31F008849032D5 /* Pods-PokeAPI-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeAPI-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D433A7110F766A422E0B4619EA0245E7 /* Pods-PokeAPI-ObjC_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PokeAPI-ObjC_Tests"; path = Pods_PokeAPI_ObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A15013DB540FAF7ABB42ECF213D6F9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "PokeAPI-ObjC/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
 		DEF1122C02B655EBE345B47C97074F13 /* PokeAPI-ObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PokeAPI-ObjC-Info.plist"; sourceTree = "<group>"; };
 		E0ADAD3BE81B62499ED9A038ABB97996 /* Pods-PokeAPI-ObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeAPI-ObjC_Example-umbrella.h"; sourceTree = "<group>"; };
+		EAE5D54B27F29F2D003C272B /* ListPokemonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPokemonResponse.h; sourceTree = "<group>"; };
+		EAE5D54C27F29F2D003C272B /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		EAE5D54D27F29F2D003C272B /* PokemonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonService.h; sourceTree = "<group>"; };
+		EAE5D54E27F29F2D003C272B /* PokemonResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonResult.h; sourceTree = "<group>"; };
+		EAE5D54F27F29F2D003C272B /* PokemonSprites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonSprites.m; sourceTree = "<group>"; };
+		EAE5D55027F29F2D003C272B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EAE5D55127F29F2D003C272B /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		EAE5D55227F29F2D003C272B /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
+		EAE5D55327F29F2D003C272B /* ListPokemonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPokemonResponse.m; sourceTree = "<group>"; };
+		EAE5D55427F29F2D003C272B /* PokemonResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonResult.m; sourceTree = "<group>"; };
+		EAE5D55527F29F2D003C272B /* PokemonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonService.m; sourceTree = "<group>"; };
+		EAE5D55627F29F2D003C272B /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		EAE5D55727F29F2D003C272B /* PokemonSprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonSprites.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +143,7 @@
 		16A58A379E278F75DBED290276EB1948 /* PokeAPI-ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				D7A15013DB540FAF7ABB42ECF213D6F9 /* ReplaceMe.m */,
+				EAE5D54A27F29F2D003C272B /* Classes */,
 				52C9C3E8820451597DFDFAE1C046D9B7 /* Pod */,
 				5B7603A3344B49A505A53A0D41B94E78 /* Support Files */,
 			);
@@ -213,6 +237,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EAE5D54A27F29F2D003C272B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAE5D54B27F29F2D003C272B /* ListPokemonResponse.h */,
+				EAE5D54C27F29F2D003C272B /* Pokemon.h */,
+				EAE5D54D27F29F2D003C272B /* PokemonService.h */,
+				EAE5D54E27F29F2D003C272B /* PokemonResult.h */,
+				EAE5D54F27F29F2D003C272B /* PokemonSprites.m */,
+				EAE5D55027F29F2D003C272B /* .gitkeep */,
+				EAE5D55127F29F2D003C272B /* ImageDownloader.m */,
+				EAE5D55227F29F2D003C272B /* Pokemon.m */,
+				EAE5D55327F29F2D003C272B /* ListPokemonResponse.m */,
+				EAE5D55427F29F2D003C272B /* PokemonResult.m */,
+				EAE5D55527F29F2D003C272B /* PokemonService.m */,
+				EAE5D55627F29F2D003C272B /* ImageDownloader.h */,
+				EAE5D55727F29F2D003C272B /* PokemonSprites.h */,
+			);
+			name = Classes;
+			path = "PokeAPI-ObjC/Classes";
+			sourceTree = "<group>";
+		};
 		EFD680138A03B09F8EB869522380BC6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,7 +291,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE5D55B27F29F2D003C272B /* PokemonResult.h in Headers */,
+				EAE5D55A27F29F2D003C272B /* PokemonService.h in Headers */,
+				EAE5D56427F29F2E003C272B /* PokemonSprites.h in Headers */,
+				EAE5D55927F29F2D003C272B /* Pokemon.h in Headers */,
+				EAE5D56327F29F2E003C272B /* ImageDownloader.h in Headers */,
 				B4204915D8F0CA07AFAE417302D31A05 /* Pods-PokeAPI-ObjC_Example-umbrella.h in Headers */,
+				EAE5D55827F29F2D003C272B /* ListPokemonResponse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE5D55D27F29F2D003C272B /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE5D56027F29F2E003C272B /* ListPokemonResponse.m in Sources */,
+				EAE5D55E27F29F2E003C272B /* ImageDownloader.m in Sources */,
+				EAE5D56127F29F2E003C272B /* PokemonResult.m in Sources */,
+				EAE5D56227F29F2E003C272B /* PokemonService.m in Sources */,
+				EAE5D55F27F29F2E003C272B /* Pokemon.m in Sources */,
+				EAE5D55C27F29F2D003C272B /* PokemonSprites.m in Sources */,
 				1697EDB8DC1DC4C933A90D6B9D84BF3C /* Pods-PokeAPI-ObjC_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D098BC76F8F5DBDCC46B7207C07E7D89 /* PokeAPI-ObjC-dummy.m in Sources */,
-				98588F39C005B77AE3608602D875EA49 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,8 +745,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

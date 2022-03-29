@@ -1,5 +1,5 @@
 //
-//  PokemonService.h
+//  ImageDownloader.h
 //  PokeAPI-ObjC_Example
 //
 //  Created by Paul Wong on 3/28/22.
@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-@class Pokemon;
+@import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PokemonService : NSObject
-+ (void)listPokemonWithSuccess:(void (^)(NSArray<Pokemon *> *))success failure:(void (^)(NSError *error))failure;
+@interface ImageDownloader : NSObject
++ (void)getImage:(NSURL *)url success:(void (^)(UIImage *image))success failure:(void (^)(NSError *error))failure;
 @end
 
 NS_ASSUME_NONNULL_END

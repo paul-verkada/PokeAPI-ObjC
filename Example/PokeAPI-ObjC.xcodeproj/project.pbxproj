@@ -24,12 +24,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DEE292B6E9459804AA8BD4DD /* Pods_PokeAPI_ObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096787987C04F84795D3452B /* Pods_PokeAPI_ObjC_Example.framework */; };
-		EAE5D52727F283EB003C272B /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D52627F283EB003C272B /* Pokemon.m */; };
-		EAE5D52A27F2844C003C272B /* PokemonSprites.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D52927F2844C003C272B /* PokemonSprites.m */; };
-		EAE5D52D27F284DF003C272B /* PokemonResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D52C27F284DF003C272B /* PokemonResult.m */; };
-		EAE5D53027F28567003C272B /* ListPokemonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D52F27F28567003C272B /* ListPokemonResponse.m */; };
-		EAE5D53327F285C1003C272B /* PokemonService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D53227F285C1003C272B /* PokemonService.m */; };
-		EAE5D53627F28DAA003C272B /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D53527F28DAA003C272B /* ImageDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,18 +66,6 @@
 		C6354B125077937E8B26D90B /* Pods-PokeAPI-ObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeAPI-ObjC_Tests.release.xcconfig"; path = "Target Support Files/Pods-PokeAPI-ObjC_Tests/Pods-PokeAPI-ObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D982061EB317C61D8FDDAE7C /* Pods-PokeAPI-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeAPI-ObjC_Example.release.xcconfig"; path = "Target Support Files/Pods-PokeAPI-ObjC_Example/Pods-PokeAPI-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D9994C1942D5C09A5C771FB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EAE5D52527F283EB003C272B /* Pokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
-		EAE5D52627F283EB003C272B /* Pokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
-		EAE5D52827F2844C003C272B /* PokemonSprites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokemonSprites.h; sourceTree = "<group>"; };
-		EAE5D52927F2844C003C272B /* PokemonSprites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonSprites.m; sourceTree = "<group>"; };
-		EAE5D52B27F284DF003C272B /* PokemonResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokemonResult.h; sourceTree = "<group>"; };
-		EAE5D52C27F284DF003C272B /* PokemonResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonResult.m; sourceTree = "<group>"; };
-		EAE5D52E27F28567003C272B /* ListPokemonResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListPokemonResponse.h; sourceTree = "<group>"; };
-		EAE5D52F27F28567003C272B /* ListPokemonResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListPokemonResponse.m; sourceTree = "<group>"; };
-		EAE5D53127F285C1003C272B /* PokemonService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokemonService.h; sourceTree = "<group>"; };
-		EAE5D53227F285C1003C272B /* PokemonService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonService.m; sourceTree = "<group>"; };
-		EAE5D53427F28DAA003C272B /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
-		EAE5D53527F28DAA003C272B /* ImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
 		ED52F4B77AADC79235FAB2DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +109,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				EAE5D52427F283C7003C272B /* Sources */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for PokeAPI-ObjC */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -213,25 +194,6 @@
 				ED52F4B77AADC79235FAB2DB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		EAE5D52427F283C7003C272B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				EAE5D52527F283EB003C272B /* Pokemon.h */,
-				EAE5D52627F283EB003C272B /* Pokemon.m */,
-				EAE5D52827F2844C003C272B /* PokemonSprites.h */,
-				EAE5D52927F2844C003C272B /* PokemonSprites.m */,
-				EAE5D52B27F284DF003C272B /* PokemonResult.h */,
-				EAE5D52C27F284DF003C272B /* PokemonResult.m */,
-				EAE5D52E27F28567003C272B /* ListPokemonResponse.h */,
-				EAE5D52F27F28567003C272B /* ListPokemonResponse.m */,
-				EAE5D53127F285C1003C272B /* PokemonService.h */,
-				EAE5D53227F285C1003C272B /* PokemonService.m */,
-				EAE5D53427F28DAA003C272B /* ImageDownloader.h */,
-				EAE5D53527F28DAA003C272B /* ImageDownloader.m */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,14 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* POKEAPIAppDelegate.m in Sources */,
-				EAE5D53027F28567003C272B /* ListPokemonResponse.m in Sources */,
-				EAE5D52727F283EB003C272B /* Pokemon.m in Sources */,
-				EAE5D53627F28DAA003C272B /* ImageDownloader.m in Sources */,
-				EAE5D52D27F284DF003C272B /* PokemonResult.m in Sources */,
 				6003F5A7195388D20070C39A /* POKEAPIViewController.m in Sources */,
-				EAE5D53327F285C1003C272B /* PokemonService.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				EAE5D52A27F2844C003C272B /* PokemonSprites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
