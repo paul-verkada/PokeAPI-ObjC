@@ -5,30 +5,24 @@ API wrapper for the [PokeAPI](https://pokeapi.co/) written in Objective-C.
 
 List Pokemon API example
 ```objective-c
-import PokeAPI
+@import PokeAPI_ObjC;
 
-PokeAPI.listPokemon() { result in
-  switch result {
-  case .success(let pokemon):
-    print(pokemon)
-  case .failure(let error):
-    print(error)
-  }
-}
+[PokemonService listPokemonWithSuccess:^(NSArray<Pokemon *> * _Nonnull pokemon) {
+  NSLog(@"%@", pokemon);
+} failure:^(NSError * _Nonnull error) {
+  NSLog(@"%@", error);
+}];
 ```
 
 ImageDownloader example
 ```objective-c
-import PokeAPI
+@import PokeAPI_ObjC;
 
-ImageDownloader.getImage(withURL: url) { result in
-  switch result {
-  case .success(let image):
-    let imageView = UIImageView(image: image)
-  case .failure(let error):
-    print(error)
-  }
-}
+[ImageDownloader getImage:url success:^(UIImage * _Nonnull image) {
+  UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+} failure:^(NSError * _Nonnull error) {
+  NSLog(@"%@", error);
+}];
 ```
 
 ## Requirements
