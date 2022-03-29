@@ -15,8 +15,23 @@
 static NSString *PokemonURL = @"https://pokeapi.co/api/v2/pokemon";
 
 + (void)listPokemonWithSuccess:(void (^)(NSArray<Pokemon *> *))success failure:(void (^)(NSError *error))failure {
-  NSURLSession *session = [NSURLSession sharedSession];
   NSURL *url = [NSURL URLWithString:PokemonURL];
+  [PokemonService listPokemonWithURL:url success:success failure:failure];
+}
+
++ (void)listPokemonWithLimit:(NSInteger)limit
+                      offset:(NSInteger)offset
+                     success:(void (^)(NSArray<Pokemon *> *))success
+                     failure:(void (^)(NSError *error))failure {
+  NSString *urlString = [NSString stringWithFormat:@"%@?limit=%ld&&offset=%ld", PokemonURL, (long)limit, (long)offset];
+  NSURL *url = [NSURL URLWithString:urlString];
+  [PokemonService listPokemonWithURL:url success:success failure:failure];
+}
+
++ (void)listPokemonWithURL:(NSURL *)url
+                   success:(void (^)(NSArray<Pokemon *> *))success
+                   failure:(void (^)(NSError *error))failure {
+  NSURLSession *session = [NSURLSession sharedSession];
   NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url completionHandler:^(NSData * _Nullable data,
                                                                                     NSURLResponse * _Nullable response,
                                                                                     NSError * _Nullable error) {

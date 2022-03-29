@@ -13,6 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PokemonService : NSObject
 + (void)listPokemonWithSuccess:(void (^)(NSArray<Pokemon *> *))success failure:(void (^)(NSError *error))failure;
++ (void)listPokemonWithLimit:(NSInteger)limit
+                      offset:(NSInteger)offset
+                     success:(void (^)(NSArray<Pokemon *> *))success
+                     failure:(void (^)(NSError *error))failure;
 @end
 
 NS_ASSUME_NONNULL_END
